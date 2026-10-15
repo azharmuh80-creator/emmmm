@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f8">
+  <title>Little Things — Untuk Dilla ♡</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <audio id="bg-music" src="audio/perfect.mp3" loop preload="auto"></audio>
+  <button class="music-toggle" id="music-toggle" type="button" aria-label="Putar musik" aria-pressed="false" title="Putar / jeda musik">
+    <span class="music-icon">♪</span>
+    <span class="music-hint">ketuk untuk memutar lagu ♡</span>
+  </button>
+  <button class="treat-toggle" id="treat-toggle" type="button" aria-label="Matikan hujan boneka" aria-pressed="true" title="Hujan boneka & permen">🧸</button>
+  <div class="treat-rain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="floating-layer" aria-hidden="true"></div>
+ 
+  <header class="site-header">
+    <a class="brand" href="#home">little things <span>♡</span></a>
+    <nav aria-label="Navigasi utama">
+      <a href="#about">a little note</a>
+      <a href="#gallery">my favorite girl</a>
+      <a href="#letter">surat kecil</a>
+    </nav>
+  </header>
+ 
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-sparkle sparkle-one">✦</div>
+      <div class="hero-sparkle sparkle-two">♡</div>
+      <span class="eyebrow reveal">a tiny corner of the internet, just for you</span>
+      <h1 class="reveal">For my favorite<br><em>girl, Dilla.</em></h1>
+      <p class="hero-copy reveal">Dibuat khusus buat seseorang yang mungkin nggak sadar<br class="desktop-only"> betapa indahnya dia di mata seseorang. ♡</p>
+      <a class="primary-button reveal" href="#gallery">lihat siapa yang aku kagumi <span>↓</span></a>
+      <div class="hero-note reveal"><span>made with love</span><span>✿</span><span>just for Dilla</span></div>
+      <!-- <div class="scroll-cue" aria-hidden="true"><span></span> scroll pelan-pelan</div> -->
+    </section>
+ 
+    <section class="intro-section reveal" id="about">
+      <div class="intro-mark">♡</div>
+      <p class="eyebrow">a little appreciation</p>
+      <h2>Sometimes, words<br>aren't <em>enough.</em></h2>
+      <p class="body-copy">Jadi aku bikin tempat kecil ini buat nyimpen hal-hal yang pengin aku bilang ke kamu. Bukan karena harus ada alasan spesial, tapi karena kamu memang sepantas itu buat diapresiasi.</p>
+      <div class="tiny-divider"><span>✿</span></div>
+    </section>
+ 
+    <section class="gallery-section" id="gallery">
+      <div class="gallery-heading reveal">
+        <span class="gallery-tag">a little appreciation ♡</span>
+        <h2>A Gallery of<br><em>My Favorite Girl.</em></h2>
+        <p>Gimana bisa ada manusia secantik ini, sih? 😭<br>Aku bangga banget sama kamu, Dilla.</p>
+      </div>
+ 
+      <div class="photo-grid">
+        <figure class="photo-card reveal" data-tilt>
+          <div class="photo-frame">
+            <img src="images/2.jpeg" alt="Foto Dilla nomor satu" loading="lazy">
+            <span class="photo-heart">♡</span>
+          </div>
+          <figcaption><span class="photo-number">01 — my favorite</span><p>Cantik banget, ya Allah ♡</p></figcaption>
+        </figure>
+        <figure class="photo-card reveal" data-tilt>
+          <div class="photo-frame">
+            <img src="images/1.jpeg" alt="Foto Dilla nomor dua" loading="lazy">
+            <span class="photo-heart">♡</span>
+          </div>
+          <figcaption><span class="photo-number">02 — her smile</span><p>Senyumnya bikin salting 😭</p></figcaption>
+        </figure>
+        <figure class="photo-card reveal" data-tilt>
+          <div class="photo-frame">
+            <img src="images/3.jpeg" alt="Foto Dilla nomor tiga" loading="lazy">
+            <span class="photo-heart">♡</span>
+          </div>
+          <figcaption><span class="photo-number">03 — simply lovely</span><p>Dia cantik dengan caranya sendiri.</p></figcaption>
+        </figure>
+        <figure class="photo-card reveal" data-tilt>
+          <div class="photo-frame">
+            <img src="images/4.jpeg" alt="Foto Dilla nomor empat" loading="lazy">
+            <span class="photo-heart">♡</span>
+          </div>
+          <figcaption><span class="photo-number">04 — precious</span><p>One of my favorite views. 🎀</p></figcaption>
+        </figure>
+        <figure class="photo-card reveal" data-tilt>
+          <div class="photo-frame">
+            <img src="images/5.jpeg" alt="Foto Dilla nomor lima" loading="lazy">
+            <span class="photo-heart">♡</span>
+          </div>
+          <figcaption><span class="photo-number">05 — little moments</span><p>Foto sederhana, orangnya istimewa.</p></figcaption>
+        </figure>
+        <figure class="photo-card reveal" data-tilt>
+          <div class="photo-frame">
+            <img src="images/6.jpeg" alt="Foto Dilla nomor enam" loading="lazy">
+            <span class="photo-heart">♡</span>
+          </div>
+          <figcaption><span class="photo-number">06 — always you</span><p>Bangga banget sama kamu, Dilla. ♡</p></figcaption>
+        </figure>
+      </div>
+      <div class="gallery-footer"><span>made with love, just for you</span><span>♡ ♡ ♡</span></div>
+      <!-- <p class="photo-tip">Psst… ganti foto contoh dengan foto Bubu di folder <code>images</code> yaa ♡</p> -->
+    </section>
+ 
+    <section class="mood-section reveal" id="mood">
+      <p class="eyebrow">check your heart, Dilla</p>
+      <h2>Today<br>What do u feel <em>Eum yeuu</em></h2>
+      <p class="body-copy">Pilih satu, ada pesan kecil buat kamu. ♡</p>
+      <div class="mood-buttons">
+        <button class="mood-btn active" data-mood="happy" type="button">☀️ happy</button>
+        <button class="mood-btn" data-mood="tired" type="button">🧸 capek</button>
+        <button class="mood-btn" data-mood="chaos" type="button">🫧 chaos</button>
+        <button class="mood-btn" data-mood="soft" type="button">🌷 pengin disayang</button>
+      </div>
+      <div class="mood-message"><span>little reminder ♡</span><p>YAYYY, simpan sedikit bahagia itu buat nanti juga yaa. Semoga hal baik datang bertubi-tubi ✨</p></div>
+    </section>
+ 
+    <section class="letter-section reveal" id="letter">
+      <div class="letter-deco">✿</div>
+      <p class="eyebrow">sealed with a little love</p>
+      <h2>A tiny letter<br><em>for you.</em></h2>
+      <p class="body-copy">Ada sesuatu yang pengin aku bilang…</p>
+      <button class="primary-button" id="open-letter" type="button">buka surat kecilnya <span>♡</span></button>
+      <article class="letter-content" id="letter-content" hidden>
+        <div class="letter-paper">
+          <span class="letter-top">dear Dilla, ♡</span>
+          <p>Aku mungkin nggak selalu jago merangkai kata, tapi aku harap kamu tahu kalau kamu itu berharga. Aku bangga sama kamu, sama hal-hal kecil yang kamu usahakan, dan sama diri kamu yang terus tumbuh jadi kamu.</p>
+          <p>Kalau suatu hari kamu lupa betapa spesialnya kamu, semoga halaman kecil ini bisa jadi pengingat. Kamu nggak harus sempurna untuk pantas disayang dan diapresiasi.</p>
+          <p class="letter-ending">Aku beruntung punya kamu ♡</p>
+          <span class="letter-sign">— Pacarmu yang paling gemoy</span>
+        </div>
+      </article>
+    </section>
+  </main>
+ 
+  <footer class="site-footer">
+    <p>made for Eum Yeuu, with all the little love ♡</p>
+    <span>© just us things</span>
+  </footer>
+</body>
+</html>
